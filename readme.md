@@ -28,7 +28,7 @@ last_group_column = 17
 These correspond to the lines and columns in the excel file. You will need to change the `last_group_column` if you change the number of groups.
 Should you add or remove criterions, the `last_criterion_line` will need to be changed as well.
 
-### Adding criterions
+### Adding criterions and comments
 #### Section
 To add a new main section, add a line with *text* on the first column.
 #### Subsection
@@ -40,9 +40,23 @@ To add a comment for a specific subsection, right click on the celle in Excel an
 The file `grading.xlsx` is guaranteed to work and you can use it to experiment with the script and the generation of reports. It has an example of two comments for two different groups.
 
 ## Using
+### Clone
+First, clone the repoitory and cd into it.
+```bash
+git clone https://github.com/FazlijaYlli/heig-grading-typscript.git
+cd heig-grading-typscript
+```
+### Grade
+Start from the example grading.xlsx template file and fill the cells according to the correction.
+
+### Configure
+Edit the `generate_reports.py` file until the configuration matches the excel file.
+
+### Generate and compile
 Once the configuration is done, simply run
 ```bash
 ./typst_compile.sh
 ```
 to generate the typ files from the excel file and compile them into pdf files.
-
+### Done !
+The PDF files can be found in `/feedbacks/pdf`.
