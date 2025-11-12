@@ -4,7 +4,7 @@ For this script to work properly, you need these tools accessible from the comma
 - python with **openpyxl**
 - typst
 
-> [!INFO]
+> [!NOTE]
 > You can install typst on Windows by typing 
 > ```winget install --id=Typst.Typst -e``` 
 > in Powershell.
