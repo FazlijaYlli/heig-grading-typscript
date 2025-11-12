@@ -3,6 +3,12 @@
 For this script to work properly, you need these tools accessible from the command line.
 - python with **openpyxl**
 - typst
+
+> [!INFO]
+> You can install typst on Windows by typing 
+> ```winget install --id=Typst.Typst -e``` 
+> in Powershell.
+
 ## Configuration
 ### Script configuration
 The user only has to configure some variables in the `generate_reports.py` file.
