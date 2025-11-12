@@ -25,7 +25,8 @@ first_group_column = 4
 last_group_column = 17
 ```
 
-These correspond to the lines and columns in the excel file. You will probably need to change the `last_group_column` since the number of groups almost always differ.
+These correspond to the lines and columns in the excel file. You will need to change the `last_group_column` if you change the number of groups.
+Should you add or remove criterions, the `last_criterion_line` will need to be changed as well.
 
 ### Adding criterions
 #### Section
@@ -35,3 +36,11 @@ To add a new subsection, add a line with text on the second column, and leave th
 
 ## Example file
 The file `grading.xlsx` is guaranteed to work and you can use it to experiment with the script and the generation of reports.
+
+## Using
+Once the configuration is done, simply run
+```bash
+./typst_compile.sh
+```
+to generate the typ files from the excel file and compile them into pdf files.
+
