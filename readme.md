@@ -16,7 +16,8 @@ The important part is these variables :
 first_criterion_line = 4
 last_criterion_line = 31
 first_group_column = 4
-last_group_column = 17```
+last_group_column = 17
+```
 
 These correspond to the lines and columns in the excel file. You will probably need to change the `last_group_column` since the number of groups almost always differ.
 
