@@ -53,6 +53,12 @@ Start from the example grading.xlsx template file and fill the cells according t
 Edit the `generate_reports.py` file until the configuration matches the excel file.
 
 ### Generate and compile
+> [!WARNING]
+>  On Linux or WSL
+> You might have to create a virtual python environement to install the required packages using pip.
+> 
+> **Also, running `dos2unix typst_compile.sh` will be necessary.**
+
 Once the configuration is done, simply run
 ```bash
 ./typst_compile.sh
